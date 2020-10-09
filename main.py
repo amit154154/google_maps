@@ -20,9 +20,6 @@ def fsd(x1,y1):#
     x,y =p(x1, y1)
     return x ,y
 
-
-
-
 def get_image_gov(cords,zoom):
     url = 'https://govmap.gov.il/?c={cord_x},{cord_y}&z={z}&b=1&sb=8'.format(cord_x=cords[0],cord_y=cords[1],z = zoom)
     print(url)
